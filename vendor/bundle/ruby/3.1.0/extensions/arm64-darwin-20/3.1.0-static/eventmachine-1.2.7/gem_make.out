@@ -1,0 +1,16 @@
+current directory: /Users/muhammadrefaat/Documents/blog/wacking/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/muhammadrefaat/.rubies/ruby-3.1.2/bin/ruby -I /Users/muhammadrefaat/.rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220607-15334-ktqe9c.rb extconf.rb
+creating Makefile
+
+current directory: /Users/muhammadrefaat/Documents/blog/wacking/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= clean
+
+current directory: /Users/muhammadrefaat/Documents/blog/wacking/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\=
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/muhammadrefaat/Documents/blog/wacking/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20220607-15334-1zhccx

@@ -1,0 +1,3 @@
+---
+BUNDLE_WITHOUT: "pulsar"
+BUNDLE_PATH: "vendor/bundle"

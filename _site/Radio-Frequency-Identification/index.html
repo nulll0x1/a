@@ -1,0 +1,696 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Radio Frequency Identification - Wireless and IoT Hacking Null0x1’s Blog</title>
+<meta name="description" content="Introducing RFID cards Technology, How it Works, and How Attackers can Exploit Weaknesses Acheiving Their Operation. Leaving you with a Good Background About This Technology.">
+
+
+  <meta name="author" content="Muhammad Refaat">
+  
+  <meta property="article:author" content="Muhammad Refaat">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Null0x1's Blog">
+<meta property="og:title" content="Radio Frequency Identification">
+<meta property="og:url" content="http://localhost:4000/Radio-Frequency-Identification/">
+
+
+  <meta property="og:description" content="Introducing RFID cards Technology, How it Works, and How Attackers can Exploit Weaknesses Acheiving Their Operation. Leaving you with a Good Background About This Technology.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-06-08T00:00:00+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/Radio-Frequency-Identification/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Muhammad Refaat",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Null0x1's Blog
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/images/avatar.jpg" alt="Muhammad Refaat" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Muhammad Refaat</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Documenting What I Have Learned</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Everywhere</span>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Radio Frequency Identification">
+    <meta itemprop="description" content="Introducing RFID cards Technology, How it Works, and How Attackers can Exploit Weaknesses Acheiving Their Operation. Leaving you with a Good Background About This Technology.">
+    <meta itemprop="datePublished" content="2022-06-08T00:00:00+02:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/Radio-Frequency-Identification/" class="u-url" itemprop="url">Radio Frequency Identification
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2022-06-08T00:00:00+02:00">June 8, 2022</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Contents</h4></header>
+              <ul class="toc__menu"><li><a href="#usage">Usage</a></li><li><a href="#background">Background</a><ul><li><a href="#active-cards">Active Cards</a></li><li><a href="#passive-cards">Passive Cards</a></li><li><a href="#how-passive-cards-works">How Passive Cards Works</a></li></ul></li><li><a href="#classes-and-standards">Classes and Standards</a><ul><li><a href="#low-frequency-lf-rfid-cards">Low Frequency (LF) RFID Cards</a></li><li><a href="#high-frequency-hf-rfid-or-nfc-cards">High Frequency (HF) RFID or NFC Cards</a></li><li><a href="#ultra-high-frequency-uhf-rfid-tags">Ultra-High Frequency (UHF) RFID Tags</a></li><li><a href="#reading-an-em4100-rfid-transponder">Reading an EM4100 RFID Transponder</a></li><li><a href="#data-modulation">Data Modulation</a></li><li><a href="#manchester-encoding-scheme">Manchester Encoding Scheme</a></li><li><a href="#biphase-encoding-scheme">BiPhase Encoding Scheme</a></li><li><a href="#psk-encoding-scheme">PSK Encoding Scheme</a></li><li><a href="#decoding-process---converting-signals-to-data">Decoding Process - Converting Signals to Data</a></li></ul></li><li><a href="#data-cloning">Data Cloning</a><ul><li><a href="#brute-forcing">Brute-Forcing</a></li><li><a href="#cloning-from-picture">Cloning From Picture</a></li><li><a href="#format-converting-cheatsheet">Format Converting Cheatsheet</a></li></ul></li><li><a href="#long-range-cloner">Long Range Cloner</a><ul><li><a href="#can-we-build-long-range-cloner">Can we Build Long Range Cloner?</a></li><li><a href="#maxi-prox-5375">Maxi-Prox 5375</a></li><li><a href="#hid-r90">HID R90</a></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>Introducing RFID cards Technology, How it Works, and How Attackers can Exploit Weaknesses Acheiving Their Operation. Leaving you with a Good Background About This Technology.</p>
+
+<p>Headlines Would be Covered as the following:</p>
+
+<ul>
+  <li>Background and introduction</li>
+  <li>Classes and Standards</li>
+  <li>Encoding Schemes/Mechanisms</li>
+  <li>Demodulation and Decoding Schemes/Mechanisms</li>
+  <li>Cloning Cards</li>
+  <li>Achieving Long Range Reads</li>
+</ul>
+
+<h2 id="usage">Usage</h2>
+
+<p>RFID stands for Radio Frequency Identification, it is Everywhere, You Probably Use one of these cards almost every day.</p>
+
+<ul>
+  <li>Access Control</li>
+  <li>Tickets</li>
+  <li>E-Wallets</li>
+  <li>Ski Pass</li>
+  <li>Loyalty Cards</li>
+  <li>Toys, and More…</li>
+</ul>
+
+<h2 id="background">Background</h2>
+
+<p>Radio Frequency Identification or RFID Uses an Electromagnetic Field to Automatically Identify and Track Tags Attached to Objects.</p>
+
+<p>There are Different RFID Standards, Frequencies, Vendors, and Usages. But There are Two Main Types of RFID Cards.</p>
+
+<h3 id="active-cards">Active Cards</h3>
+
+<p>Active Cards have a built-in Battery, The power source is used to run the microchip’s circuitry and broadcast the signal back to the reader.</p>
+
+<p><img src="/images/Untitled.png" alt="fig.1: Built-in Battery Active Card" /></p>
+
+<p>fig.1: Built-in Battery Active Card</p>
+
+<p>Commonly used as ”<em>*beacons” *to accurately track the real-time location of assets or in high-speed environments such as tolling**.</em></p>
+
+<p><strong>Beacons</strong>, on the other hand, emit a signal at a pre-set interval. This type of active tag is used in real-time location systems (RTLS) for tracking anything from wheelchairs at a hospital to large cargo containers at a shipping dock.</p>
+
+<p><img src="/images/Untitled%201.png" alt="fig.2: Data Transfer between the tag and the reader." /></p>
+
+<p>fig.2: Data Transfer between the tag and the reader.</p>
+
+<p>Active tags provide a much longer read range than passive tags, but they are also more expensive.</p>
+
+<p>Operates Between <strong>433 MHz - 5.8 GHz</strong></p>
+
+<h3 id="passive-cards">Passive Cards</h3>
+
+<ul>
+  <li>Smaller Tags</li>
+  <li>Much Cheaper</li>
+  <li>Thinner/More Flexible</li>
+  <li>Variety  of designs</li>
+  <li>Tags Can Last a Lifetime Without a Battery</li>
+</ul>
+
+<p><img src="/images/Untitled%202.png" alt="fig.3: Different Sizes, Shapes, and Flexibility, Same Functionality." /></p>
+
+<p>fig.3: Different Sizes, Shapes, and Flexibility, Same Functionality.</p>
+
+<p>Operates Between</p>
+
+<ul>
+  <li><strong>(125-134 kHz)</strong> known commercially as <strong>Low-Frequency Cards</strong>,</li>
+  <li><strong>(13.56MHz)</strong> known commercially as <strong>High-Frequency Cards</strong>,</li>
+  <li><strong>(860-915MHz)</strong> known commercially as <strong>Ultra-high-frequency</strong> Tags.</li>
+</ul>
+
+<h3 id="how-passive-cards-works">How Passive Cards Works</h3>
+
+<p><img src="/images/Untitled%203.png" alt="                                               fig.4: Passive RFID Card" /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                           fig.4: Passive RFID Card
+</code></pre></div></div>
+
+<p>The Communication between the card and the reader is very simple; Whenever The card is near enough to the reader -Energy-, There is an Electromagnetic Filed Caused to cut throw the copper (inside the Card) and transfer a small amount of energy, enough to power up the Chipset that holds the data (Unique ID). The Reader works at the same frequency as receiver so it can Read the signal of 1’s and 0’s, Passing it to The Company’s Database to check it’s authenticity; If That Unique ID number matches, then this card is authorized and the Gate will open. 
+if not, The Gate Will Not open.</p>
+
+<p><img src="/images/Untitled%204.png" alt="                            fig.5: Data Exchange Between The Card and The Receiver" /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                        fig.5: Data Exchange Between The Card and The Receiver
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="classes-and-standards">Classes and Standards</h2>
+
+<h3 id="low-frequency-lf-rfid-cards">Low Frequency (LF) RFID Cards</h3>
+
+<p>Operate in the 30 kHz to 300 kHz Range, and Have a Read Range up to 10cm. Shorter Read Range and Slower Data Read Rate than Other Technologies, But they perform better in liquid or metal presence, which can cause interference with other types of RFID tag transmission. 
+Popular LF RFID Standards include ISO 14223 and ISO/IEC 18000-2.</p>
+
+<ul>
+  <li>Low Price Range</li>
+  <li>Used in a lot of access control systems</li>
+  <li>Lack of Security Features</li>
+</ul>
+
+<h3 id="high-frequency-hf-rfid-or-nfc-cards">High Frequency (HF) RFID or NFC Cards</h3>
+
+<p>Operate in the 3MHz to 30MHz range (Commonly 13.56MHz), Providing a reading distance of 
+10 cm to 1M. Common applications include electronic ticketing and payment and data transfer. 
+Near Field Communication (NFC) technology Used for payment cards and hotel key card applications; NFC is actually High Frequency RFID with added security protocols.<br />
+Other types of smart card and proximity card payment and security systems also use High Frequency Range. 
+Standards include ISO 15693, ECMA-340, ISO/IEC 18092 (for NFC), ISO/IEC 14443A and 
+ISO/IEC 14443 (for MIFARE and other Smart Card Solutions).</p>
+
+<h3 id="ultra-high-frequency-uhf-rfid-tags">Ultra-High Frequency (UHF) RFID Tags</h3>
+
+<p>Operate in the range between 300 MHz and 3 GHz, offer read ranges up to 12 m, and have faster data transfer rates. They are more sensitive to interference from metals, liquids, and electromagnetic signals, but new design innovations have helped mitigate some of these problems.
+UHF tags are much cheaper to manufacture, and as such are commonly used in retail inventory tracking, smart cities, pharmaceutical anti-counterfeiting, and other applications where large volumes of tags are required. The EPCglobal Gen2/ISO 18000-6C standard is a well-known global standard for item-level tracking applications.</p>
+
+<hr />
+
+<h1 id="em4100">EM4100</h1>
+
+<p>Probably the cheapest tag on market by EM Microelectronic, Very common especially in low-end devices like:</p>
+
+<ul>
+  <li>Intercoms,</li>
+  <li>Parking gates</li>
+  <li>Time attendance, etc.</li>
+</ul>
+
+<p>Operates at <strong>125KHz Low Frequency</strong> and has 64-bit of <strong>Read-Only</strong> Memory.</p>
+
+<h3 id="reading-an-em4100-rfid-transponder"><strong>Reading an EM4100 RFID Transponder</strong></h3>
+
+<p>EM4100 compatible RFID transponders (Card) carry 64 bits of Read-Only memory. This means that information can be read from the Tag but no data can be changed, or written into the card once the card has been programmed with the initial data. 
+The format of the data is as shown here.</p>
+
+<p><img src="/images/Untitled%205.png" alt="fig.6: Transponder Block Memory." /></p>
+
+<p>fig.6: Transponder Block Memory.</p>
+
+<p>When the Tag enters the electromagnetic field transmitted by the RFID reader it draws power from the field and will commence transmitting its data as shown above. 
+The first 9 bits are a logic 1. These bits are used as a marker sequence to indicate the beginning of the string.  As Even parity is used throughout the data this 9-bit sequence of 1’s will not occur at any other location in the string.  This is followed by 10 groups of 4 data and 1 even parity bits. Finally, there are 4 bits of column parity (Even) and a stop bit (0). The Tag then continues to repeat this string as long as it has power.</p>
+
+<p>Shown here is an example string for a proximity card that has the data $06 (version number), and $001259E3 as a data string.</p>
+
+<p><img src="/images/Untitled%206.png" alt="fig.7: Proximity Card and Data Distribute. " /></p>
+
+<p>fig.7: Proximity Card and Data Distribute.</p>
+
+<h3 id="data-modulation">Data Modulation</h3>
+
+<p>The RFID transponder is able to transmit its data by modulating the RF field of the Reader. Here we discuss 3 popular modulation schemes.</p>
+
+<ul>
+  <li>Manchester Encoding.</li>
+  <li>BiPhase Encoding.</li>
+  <li>PSK Encoding.</li>
+</ul>
+
+<p>The Transponder and Reader use the individual cycles of the RF field to synchronize the data transmission between the two. The frequency of the synchronizing clock then simply becomes the frequency of the RF field used. 
+RFID system clock frequencies vary according to the application required.  
+In low frequency, short distance sensing of Tags the typical band used is between 100-150Khz. 
+For longer-range sensing a system frequency of 13.56Mhz might be used, or other frequency as the application requires.</p>
+
+<p>Of course, the designer of an RFID system is restricted to using particular frequency bands as RFID systems are radio emitting devices and therefore under the control of the local radio frequency regulator bodies.</p>
+
+<p>The length of each bit is specified in terms of clock cycles. For the EM4100 protocol bit lengths can be either 64, 32, or 16 Clock cycles.</p>
+
+<h3 id="manchester-encoding-scheme">Manchester Encoding Scheme</h3>
+
+<p>Manchester Encoding schemes modulate the RF filed Producing a level transition in the middle of the bit period. A low to high transition represents a logic 1 state, high to low transition represents a logic 0 state.</p>
+
+<p><img src="/images/Untitled%207.png" alt="Untitled" /></p>
+
+<p><strong>Encoding Mechanism</strong></p>
+
+<ul>
+  <li>A 0 is expressed by a low-to-high transition.</li>
+  <li>A 1 is high-to-low transition.</li>
+</ul>
+
+<p><img src="/images/Untitled%208.png" alt="Untitled" /></p>
+
+<h3 id="biphase-encoding-scheme"><strong>BiPhase Encoding Scheme</strong></h3>
+
+<p>Biphase Encoding schemes modulate the RF field so that there is a transition at the beginning of each bit boundary.  A logic 0 state has a transition in the middle of the bit period, while a logic 1 state has no transition during the entire bit period.</p>
+
+<p><img src="/images/Untitled%209.png" alt="Untitled" /></p>
+
+<h3 id="psk-encoding-scheme">PSK Encoding Scheme</h3>
+
+<p>With PSK (Phase Shift Keying) encoding the RF field is modulated so that there is a transition with each clock period. This means there can be up to 64, 32, or 16 transitions per bit depending on what bit length the Tag is using. When a phase shift occurs it represents a logic 0 state, while a logic 1 state is interpreted when there is no phase change at the bit boundary.</p>
+
+<p><img src="/images/Untitled%2010.png" alt="Untitled" /></p>
+
+<h3 id="decoding-process---converting-signals-to-data">Decoding Process - Converting Signals to Data</h3>
+
+<p><img src="/images/Untitled%2011.png" alt="Untitled" /></p>
+
+<p>Let’s Demodulate the EM4100 data buffer that uses Manchester Encoding,</p>
+
+<p>Converting Parity bits to hex extracts the actual data sent from the transponder to the receiver.</p>
+
+<p><img src="/images/Untitled%2012.png" alt="Untitled" /></p>
+
+<p>A parity bit is <strong>a check bit, which is added to a block of data for error detection purposes.</strong> 
+It is used to validate the integrity of the data. The value of the parity bit is assigned either 0 or 1  making the number of 1s in the message block either even or odd depending upon the type of parity.</p>
+
+<p>The result is the UID of the card that can be written on other writeable cards like T5557 
+(Chinese Magic RFID Card) and grant access with a cloned card.</p>
+
+<h2 id="data-cloning">Data Cloning</h2>
+
+<p><strong>Card Cloning can be achieved by 3 Ways:</strong></p>
+
+<ul>
+  <li><strong>Brute Forcing Possible UIDs</strong></li>
+  <li><strong>Cloning From Picture</strong></li>
+  <li><strong>Sniffing data over the wire</strong></li>
+</ul>
+
+<p>Using the Proper Tool You Can Read, Manipulate, and Clone nearly most of Low and High Frequency RFID Cards.</p>
+
+<p>There are a lot of RFID Readers/Cloners at the markets, But, We will talk about <strong>Proxmark3</strong> RFID Cloner.</p>
+
+<p><img src="/images/Untitled%2013.png" alt="fig.8: Proxmark3 RDV4 RFID Cloner" /></p>
+
+<p>fig.8: Proxmark3 RDV4 RFID Cloner</p>
+
+<p><strong>Different Versions, Different Capabilities.</strong></p>
+
+<p>Proxmark3 RDV4 Features:</p>
+
+<ul>
+  <li>Low and High Frequency Antennas for Reading/Cloning</li>
+  <li>Portable and easy to use</li>
+  <li>Affordable, and Effective @320USD</li>
+  <li>Community Supported</li>
+</ul>
+
+<h3 id="brute-forcing">Brute-Forcing</h3>
+
+<p>Card Manufactures Print Serial Numbers <strong>Sequentially</strong> on every card they provide, 
+Every Company orders around <strong>hundreds</strong> of RFID cards for the employees. 
+The First Serial Numbers added to the database usually provided to the C level Managers with More Access Permissions. 
+Taking Proxmark3, Enabling Standalone Mode, Brute-Forcing from list of possible ids and you can Grant Access.</p>
+
+<p><img src="/images/Untitled%2014.png" alt="fig.9: Stuff Card Opens all The Locks" /></p>
+
+<p>fig.9: Stuff Card Opens all The Locks</p>
+
+<p>Tag’s UID are quite random, So Brute-Forcing is achievable but <strong>NOT</strong> always effective.</p>
+
+<h3 id="cloning-from-picture">Cloning From Picture</h3>
+
+<p>Real-Life Example: EM410X Hotel Card. 
+Reading The Card with Proxmark3:</p>
+
+<p><img src="/images/Untitled%2015.png" alt="Untitled" /></p>
+
+<p>As we see above, The ID Printed on the Card represented as DEZ 14/IK2 and proxmark3 extracted the UID as EM TAG ID <strong>(D0032228B)</strong>.</p>
+
+<h3 id="format-converting-cheatsheet">Format Converting Cheatsheet</h3>
+
+<p><img src="/images/Untitled%2016.png" alt="Untitled" /></p>
+
+<hr />
+
+<p>The Card Above uses DEZ 14; to extract the UID from this format you have to directly convert from binary to hex, using any online converter or from your command-line interface.</p>
+
+<p><img src="/images/Untitled%2017.png" alt="Untitled" /></p>
+
+<p>The Resulting Hex Number (UID) Matches with the UID extracted by Proxmark3 at fig.5.</p>
+
+<p>Take the UID and write it again to any writable card (T5557 for ex.) and you have a cloned card of that employee card.</p>
+
+<p>Take in consideration that UID numbers are <strong>Permanent</strong> written by the manufacture. 
+Companies Usually Use the Original Cards UID.</p>
+
+<hr />
+
+<h2 id="long-range-cloner">Long Range Cloner</h2>
+
+<p>In real red-teaming assessments, hijacking or cloning employee card are not easy because of its short read distance of 10-15CMs.</p>
+
+<p>So, Long Range Cloners would be more than helpful to give you the ability to read and clone cards over more distances.</p>
+
+<h3 id="can-we-build-long-range-cloner">Can we Build Long Range Cloner?</h3>
+
+<p>Yes we can, using one of the following readers that can achieve more read distances.</p>
+
+<h3 id="maxi-prox-5375">Maxi-Prox 5375</h3>
+
+<ul>
+  <li>Price of 400$</li>
+  <li>125KHz Low Frequency Range Reader</li>
+  <li>Read Distance up to 40-60CMs</li>
+</ul>
+
+<p><img src="/images/Untitled%2018.png" alt="Untitled" /></p>
+
+<h3 id="hid-r90">HID R90</h3>
+
+<p><img src="/images/Untitled%2020.png" alt="Untitled" /></p>
+
+<p><strong>What About Activating Passive Cards from a Distance?</strong></p>
+
+<p><img src="/images/Untitled%2021.png" alt="Untitled" /></p>
+
+<p><strong>How to Achieve Wider Distances?</strong></p>
+
+<p>The Tag Must Speak Loudly enough for the Reader to “Hear”.</p>
+
+<p>In the reader’s magnetic field - coupling of energy depends on:</p>
+
+<ul>
+  <li>Antenna Diameter</li>
+  <li>Reader’s noise rejection “filtering”</li>
+</ul>
+
+<p><img src="/images/Untitled%2022.png" alt="Untitled" /></p>
+
+<p><img src="/images/Untitled%2023.png" alt="Untitled" /></p>
+
+<p>With some:</p>
+
+<ul>
+  <li>Batteries,</li>
+  <li>LCD,</li>
+  <li>Arduino,</li>
+  <li>Maxi-Prox or R90 Reader</li>
+</ul>
+
+<p>You can make a long RFID cloner with read distance up to 1 Meter.</p>
+
+<p>This project is open-source, and available at :</p>
+
+<p><a href="https://github.com/linuz/LongRangeReader">https://github.com/linuz/LongRangeReader</a></p>
+
+<hr />
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-06-08T00:00:00+02:00">June 8, 2022</time></p>
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
